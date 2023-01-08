@@ -5,7 +5,7 @@ import Counter from './Component/Counter';
 function App() {
   return (
     <div className='App'>
-      <Counter />
+      <Counter statement={"This is props"} />
    </div>
   )
 }
