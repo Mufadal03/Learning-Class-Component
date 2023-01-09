@@ -11,9 +11,9 @@ class Counter extends React.Component{
         this.FetchFn=this.FetchFn.bind(this)
     }
     handleClick() {
-        this.setState({
-            count:this.state.count+1
-        })
+        this.setState((prev) => ({
+            count:prev.count+1
+        }))
         console.log(this.state.data)
     }
     
